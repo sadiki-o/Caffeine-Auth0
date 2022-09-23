@@ -1,0 +1,10 @@
+pylint
+Werkzeug
+Flask
+Flask-SQLAlchemy
+Flask-Cors
+python-jose
+python-dotenv
+authlib
+requests
+Flask-Migrate 
