@@ -1,0 +1,51 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run dev"
+  },
+  "dependencies": {
+    "@capacitor/android": "4.0.1",
+    "@capacitor/app": "4.0.1",
+    "@capacitor/cli": "4.0.1",
+    "@capacitor/core": "4.0.1",
+    "@capacitor/haptics": "4.0.1",
+    "@capacitor/ios": "4.0.1",
+    "@capacitor/keyboard": "4.0.1",
+    "@capacitor/status-bar": "4.0.1",
+    "@ionic/react": "^6.0.0",
+    "@ionic/react-router": "^6.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@auth0/auth0-react": "^1.11.0",
+    "@vitejs/plugin-basic-ssl": "^0.1.2",
+    "axios": "^0.27.2",
+    "history": "^5.3.0",
+    "jwt-decode": "^3.1.2",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.4.0",
+    "simple-zustand-devtools": "^1.1.0",
+    "sort-by": "^1.2.0",
+    "zustand": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-router": "^5.1.19",
+    "@vitejs/plugin-react": "^2.1.0",
+    "autoprefixer": "^10.4.10",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}
